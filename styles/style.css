@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient( cyan, 60%, black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(4, 122, 83);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px;
+}
+.button {
+  width: 300px;
+}
+.label {
+  font-size: 30px;
+  color: rgb(3, 99, 67);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textarea {
+  margin: 40px;
+}
+input {
+  width: 60%;
+  height: 40px;
+  
+}
